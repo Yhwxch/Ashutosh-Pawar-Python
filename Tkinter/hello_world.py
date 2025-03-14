@@ -10,7 +10,7 @@ root = Tk() # window object
 root.geometry('300x400')
 
 
-hello = Label(root, text='Hello world')
+hello = Label(root, text='Hello world', fg='red', bg='cyan', font=('Arial', 16))
 
 #.pack(): Automatically arranges the label in the window
 hello.pack()
